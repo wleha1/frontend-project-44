@@ -5,19 +5,20 @@ const discription = 'What is the result of the expression?';
 const operator = ['+', '-', '*'];
 
 const ExpressionResult = (num1, num2, getRandomExample) => {
-let expression = 0;
-switch (getRandomExample) {
-  case '+':
-    expression = num1 + num2;
-    break;
-  case '-':
-    expression = num1 - num2;
-    break;
-  case '*':
-    expression = num1 * num2;
-    break;
+  let expression = 0;
+  switch (getRandomExample) {
+    case '+':
+      expression = num1 + num2;
+      break;
+    case '-':
+      expression = num1 - num2;
+      break;
+    case '*':
+      expression = num1 * num2;
+      break;
+    default:
   }
-return expression;
+  return expression;
 };
 
 const getAnswerAndQuestion = () => {
@@ -33,4 +34,4 @@ const brainCalc = () => {
   runGame(discription, getAnswerAndQuestion);
 };
 
-export default brainCalc
+export default brainCalc;
