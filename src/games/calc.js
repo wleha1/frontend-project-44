@@ -15,7 +15,7 @@ const ExpressionResult = (num1, num2, getRandomExample) => {
       break;
     case '*':
       expression = num1 * num2;
-      break;  
+      break;
     default:
   }
   return expression;

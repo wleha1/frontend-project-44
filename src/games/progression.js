@@ -26,8 +26,8 @@ const getAnswerAndQuestion = () => {
 
   return [answer, question];
 };
-    const brainProgression = () => {
-    runGame(discription, getAnswerAndQuestion);
-  };
-  
-  export default brainProgression;
+const brainProgression = () => {
+  runGame(discription, getAnswerAndQuestion);
+};
+
+export default brainProgression;

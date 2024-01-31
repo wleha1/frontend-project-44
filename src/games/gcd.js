@@ -3,8 +3,8 @@ import runGame from '../index.js';
 
 const discription = 'Find the greatest common divisor of given numbers.';
 
-const getAnswerAndQuestion  = () => {
-  const num1= getRandomNumber();
+const getAnswerAndQuestion = () => {
+  const num1 = getRandomNumber();
   const num2 = getRandomNumber();
   const question = `${num1} ${num2}`;
   let rightAnswer = '';
@@ -18,7 +18,7 @@ const getAnswerAndQuestion  = () => {
 };
 
 const brainGcd = () => {
-    runGame(discription, getAnswerAndQuestion);
-  };
-  
-  export default brainGcd;
+  runGame(discription, getAnswerAndQuestion);
+};
+
+export default brainGcd;
