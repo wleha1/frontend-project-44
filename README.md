@@ -8,7 +8,7 @@ Hello! My name is Egor and this is my first **frontend** project on [Hexlet](htt
 
 ## Installation of project:
 
-Just 3 commands for a quick start
+Write 3 commands to install:
 ```
 git clone git@github.com:wleha1/frontend-project-44.git
 make install
@@ -19,9 +19,9 @@ npm link
 
 
 These are five console games.
-To choose one of them, write in your console.:
-`brain-even` 
-`brain-calc` 
-`brain-prog` 
-`brain-prime`
-`brain-gcd`
+To choose one of them, write in your console:
+- `brain-even` 
+- `brain-calc` 
+- `brain-prog` 
+- `brain-prime`
+- `brain-gcd`
