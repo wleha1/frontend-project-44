@@ -15,7 +15,7 @@ const runGame = (discritption, gameFunction) => {
     if (answerUser !== rightAnswer) {
       console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
-      return; 
+      return;
     }
   }
   console.log(`${'Congratulations, '}${name}${'!'}`);
