@@ -24,3 +24,6 @@ brain-gcd:
 
 brain-progression:
 		node src/games/progression.js
+
+brain-prime:
+		node src/games/prime.js
